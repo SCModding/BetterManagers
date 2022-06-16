@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "outDir": "mod",
+    "allowJs": true,
+    "target": "ES2018",
+    "baseUrl": "mod",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "inlineSourceMap": true,
+    "charset": "UTF-8",
+    "downlevelIteration": true,
+    "newLine": "lf",
+    "strict": true,
+    "strictBindCallApply": true,
+    "lib": ["ES2018", "DOM"], // node 10
+    "declaration": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true
+  },
+  "exclude": ["**/*.js"],
+  "include": ["**/*.ts"]
+}

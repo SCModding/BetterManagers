@@ -1,0 +1,26 @@
+{
+  "name": "better-managers",
+  "version": "1.0.0",
+  "description": "Enables managers to manage more people just as efficiently.",
+  "main": "mod/start.js",
+  "scripts": {
+    "build": "tsc && sed -i '/require(\"startupcompany\");/d' mod/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SCModding/DevToolsShortcuts.git"
+  },
+  "author": "Donovan Daniels <hewwo@yiff.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SCModding/DevToolsShortcuts/issues"
+  },
+  "homepage": "https://github.com/SCModding/DevToolsShortcuts#readme",
+  "dependencies": {
+    "@uwu-codes/eslint-config": "^1.0.49",
+    "startupcompany": "^1.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "private": true
+}
