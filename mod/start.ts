@@ -1,6 +1,4 @@
-/// <reference path="../../Types/global.d.ts" />
-import type * as StartupCompany from "../../Types";
-// https://github.com/DonovanDMC/SCModding/tree/master/Mods/BetterManagers
+import type * as StartupCompany from "startupcompany";
 
 function UpdateEmployees() {
 	Helpers.GetAllEmployees(false).forEach((employee: StartupCompany.Employee & { originalSpeed?: number; originalMaxSpeed?: number; }) => {
